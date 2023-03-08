@@ -1,3 +1,5 @@
+## npm start to run
+
 # Teste Econverse: Vaga Desenvolvedor Front-End Jr
 
 ### Vem ser #Econverse!
