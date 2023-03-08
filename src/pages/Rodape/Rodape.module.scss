@@ -1,0 +1,125 @@
+.container {
+    align-items: center;
+    background-color: #2A2A2A;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .info h3 {
+        color: #FFFFFF;
+        font-weight: 700;
+        margin-bottom: 1.75rem;
+        
+    }
+
+    .info li {
+        color: #FFFFFF;
+        cursor: pointer;
+        margin: 1rem 0;
+        text-transform: uppercase;
+    }
+    
+    .info__util h3 {
+        color: #FFFFFF;
+        font-weight: 700;
+        margin-bottom: 1.75rem;
+        text-transform: uppercase;
+    }
+
+    .info__util li {
+        margin: 1rem 0;
+        
+    }
+
+    .info__util a {
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .network {
+        display: flex;
+        gap: 1rem;
+        margin-top: 5rem;
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    .pagamento {
+
+        ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        }
+
+        h3 {
+        color: #FFFFFF;
+        font-weight: 700;
+        margin-bottom: 1.75rem;
+        text-transform: uppercase;
+        }
+
+        li {
+            margin: .7rem .3rem;
+            padding: 0 .1rem;
+        }
+    }
+
+    .newsletter {
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        padding: 1rem 2.5rem;
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            padding: -.5rem 0;
+            text-align: left;
+            
+            b {
+                font-weight: 700;
+            }
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        input {
+            border-radius: 5px;
+            padding: .5rem 1.5rem;
+        }
+
+        button {
+            background-color: var(--main-color);
+            border-color: var(--main-color);
+            border-radius: 5px;
+            color: #FFFFFF;
+            cursor: pointer;
+            margin: 0 .5rem;
+            font-weight: bold;
+            padding: .5rem .9rem;
+        }
+    }
+}
+
+.copyright {
+    border-top: 1px solid #FFFFFF;
+    border-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between  ;
+
+    p {
+        color: #FFFFFF;
+    }
+
+    
+}

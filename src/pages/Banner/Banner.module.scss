@@ -1,0 +1,81 @@
+.banner {
+    position: relative;
+    text-align: center;
+    
+
+    .banner__text {
+        position: relative;
+        text-align: center;
+        width: 100%;
+
+        h2 {
+            padding: 1rem 4rem;
+            font-size: 48px;
+        }
+
+        h3 {
+            padding: 1rem 4rem;
+            font-size: 36px;
+        }
+    }
+}
+
+.banner__button {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 4rem;
+    padding: 1rem 4rem;
+
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+
+    .lista__icon {
+        border: 25px solid #f0f0f0;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 2rem;
+        
+
+        img {
+            background-color: #f0f0f0;
+            
+        }
+        img:hover {
+            color: var(--main-color);
+        }
+
+        a {
+            color: #4e4e4e;
+            font-weight: bold;
+            text-decoration: none;
+            text-align: end;
+        }
+
+    }
+    
+}
+.itens {
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: .7rem;
+    a{
+    color: #4e4e4e;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+    .drinks {
+        margin-right: 2rem;
+    }
+}
+

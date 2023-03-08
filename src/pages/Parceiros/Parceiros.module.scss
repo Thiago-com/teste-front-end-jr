@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+
+    .item {
+        img {
+            border-radius: 18px;
+        }
+
+        h2 {
+            font-weight: bold;
+        }
+
+
+        button {
+            background-color: var(--main-color);
+            border: solid var(--main-color);
+            border-radius: 5px;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+    }
+}

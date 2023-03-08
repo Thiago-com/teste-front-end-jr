@@ -1,0 +1,72 @@
+ .cabecalho {
+   align-items: center;
+   border-bottom: 1px solid #F0F0F0;
+   color: #9F9F9F;
+   justify-content: space-evenly;
+   display: flex;
+   font-weight: 1000;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+   b {
+     color: var(--main-color);
+   }
+
+   img {
+     margin-right: .5em;
+   }
+ }
+
+ .pesquisa {
+   align-items: center;
+   color: #9F9F9F;
+   justify-content: space-evenly;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-top: 1rem;
+
+   input {
+     background-color: #F0F0F0;
+     border: 1px solid #F0F0F0;
+     border-radius: 5px;
+     height: 48px;
+     width: 35rem;
+   }
+
+    } input::placeholder {
+          // background-image: url('/public/images/MagnifyingGlass.png') no-repeat;
+          background-position: 1em;
+          color: var(--branco);
+          font-family: var(--fonte-principal);
+          font-size: 14px;
+          text-align: left;
+          padding-left: 1.5rem;
+      }
+ 
+
+ .categorias {
+   align-items: center;
+   border: 1px solid #f0f0f0;
+   border-left: 1px solid #9F9F9F;
+   border-right: 1px solid #9F9F9F;
+   opacity: 1;
+   justify-content: space-evenly;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin: 1em 0;
+
+   li {
+    img {
+      align-self: center;
+      margin-right: .6rem;
+    }
+   }
+
+   a {
+     color: #9F9F9F;
+     text-decoration: none;
+     text-transform: uppercase;
+   }
+ }
